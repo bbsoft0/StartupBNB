@@ -1,47 +1,50 @@
-Cloudbnb
-========
+StartupBNB
+====================
 
-SUMMARY:
---------
-[Cloudbnb](http://cloudbnb.herokuapp.com/) is a faithful Airbnb clone. Backed by Rails, it replicates many of the core user-facing features of Airbnb. It is important to note that I did all of the css myself without the use of Bootstrap or other framework.
+StartupBNB is an AirBnB Clone built in Ruby on Rails.
 
-###Search for Places to Stay with Multiple Filters
- * Filter location by location, room type, price range, guest count, available dates, amenities.
- * View pictures, maps, calendar, description, amenities, and house rules for every location.
+Demo site can be found here :
+[http://startupbnb.herokuapp.com/](http://startupbnb.herokuapp.com/)
 
-###Book Vacations
- * Request a booking by date range and number of guests.
- * Cancel a booking if necessary.
- * View the status of all bookings
 
-###Property Owner Administration
- * Add new properties for users to search and book vacations.
- * View, approve, and decline booking requests.
+Site was made in 3 sprints (each sprint taking one day)
 
-##Technologies Used
-The following technologies were used to build Cloudbnb:
 
- * AJAX
- * Capybara
- * CSS
- * Faker
- * Figaro
- * Flickr-fu
- * Geocoder
- * Heroku
- * HTML5
- * JavaScript
- * JQuery
- * Kaminari
- * NewRelic
- * Postgresql
- * RSpec
- * Ruby on Rails
- * SQL
+Day1
+=====
+Created User Stories:
 
-###External APIs Consumed
- * Google Maps
- * Flickr
+As a user, I want to be able to create an account, so I can login.
+As a user, I want to search for housing by location.
+As a user, I want to be able to filter results by room type, price range, available dates, amenities.
+As a user, I want to be able to see pictures, description, house rules for each location.
+As a host, I want to add new places for rent out, for users to search and book.
+As a user, I want to be able to book a place by date and no of persons.
+As a host, I want to be able to view and approve/deny booking requests.
+As a user, I want to be able to cancel a booking if I want.
 
-##Comments? Suggestions?
-Please feel free to send me an email at Jonathan.potter.business@gmail.com with any comments or suggestions about how I can improve the site.
+
+Created initial layout, pictures.
+Database created.
+Filled in 20 fake users.
+
+Implemented SignUp,LogIn functionality
+
+Day2
+======
+
+Added amenities list, room type, price range, house rules.
+Booking by User, Approve/Decline by host.
+Views pages work.
+
+
+Day3
+======
+
+Added Google Maps
+Added Flickr
+Minor changes in general functionality.
+
+
+=========================================
+
